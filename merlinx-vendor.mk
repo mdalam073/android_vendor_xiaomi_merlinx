@@ -55,6 +55,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/merlinx/proprietary/vendor/bin/bp_kmsetkey_ca:$(TARGET_COPY_OUT_VENDOR)/bin/bp_kmsetkey_ca \
     vendor/xiaomi/merlinx/proprietary/vendor/bin/ccci_mdinit:$(TARGET_COPY_OUT_VENDOR)/bin/ccci_mdinit \
     vendor/xiaomi/merlinx/proprietary/vendor/bin/ccci_rpcd:$(TARGET_COPY_OUT_VENDOR)/bin/ccci_rpcd \
+    vendor/xiaomi/merlinx/proprietary/vendor/bin/chipinfo:$(TARGET_COPY_OUT_VENDOR)/bin/chipinfo \
     vendor/xiaomi/merlinx/proprietary/vendor/bin/charon:$(TARGET_COPY_OUT_VENDOR)/bin/charon \
     vendor/xiaomi/merlinx/proprietary/vendor/bin/dconfig:$(TARGET_COPY_OUT_VENDOR)/bin/dconfig \
     vendor/xiaomi/merlinx/proprietary/vendor/bin/dexecutor:$(TARGET_COPY_OUT_VENDOR)/bin/dexecutor \
