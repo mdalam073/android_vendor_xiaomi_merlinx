@@ -1507,7 +1507,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/merlinx/proprietary/vendor/lib64/libwa_refocus.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libwa_refocus.so \
     vendor/xiaomi/merlinx/proprietary/vendor/lib64/libwa_rtdof.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libwa_rtdof.so \
     vendor/xiaomi/merlinx/proprietary/vendor/lib64/libwapi.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libwapi.so \
-    vendor/xiaomi/merlinx/proprietary/vendor/lib64/libwifi-hal.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libwifi-hal.so \
     vendor/xiaomi/merlinx/proprietary/vendor/lib64/libwifitest.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libwifitest.so \
     vendor/xiaomi/merlinx/proprietary/vendor/lib64/libwo.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libwo.so \
     vendor/xiaomi/merlinx/proprietary/vendor/lib64/libwpfa.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libwpfa.so \
@@ -1655,6 +1654,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/merlinx/proprietary/vendor/thh/ta/isee_model.json:$(TARGET_COPY_OUT_VENDOR)/thh/ta/isee_model.json
 
 PRODUCT_PACKAGES += \
+    libwifi-hal-mtk \
     android.hardware.neuralnetworks@1.3-service-mtk-gpu \
     android.hardware.usb@1.2-service-mediatekv2 \
     android.hardware.wifi.supplicant \
