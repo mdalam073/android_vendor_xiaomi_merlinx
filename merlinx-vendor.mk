@@ -1656,8 +1656,8 @@ PRODUCT_PACKAGES += \
     android.hardware.neuralnetworks@1.3-service-mtk-gpu \
     android.hardware.usb@1.2-service-mediatekv2 \
     android.hardware.wifi.supplicant \
-    gnss-default \
-    gnss@2.1-service \
+    gnss@2.1-service-mtk \
+    gnss-mtk \
     lbs_hidl_service@1.0 \
     manifest_android.hardware.drm@1.4-service.widevine \
     manifest_hwcomposer \

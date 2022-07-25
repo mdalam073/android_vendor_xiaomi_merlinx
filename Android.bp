@@ -70,21 +70,21 @@ prebuilt_etc_xml {
 }
 
 prebuilt_etc_xml {
-	name: "gnss-default",
+	name: "gnss@2.1-service-mtk",
 	owner: "xiaomi",
-	src: "proprietary/vendor/etc/vintf/manifest/gnss-default.xml",
+	src: "proprietary/vendor/etc/vintf/manifest/gnss@2.1-service-mtk.xml",
 	filename_from_src: true,
 	sub_dir: "vintf/manifest",
 	soc_specific: true,
 }
 
 prebuilt_etc_xml {
-	name: "gnss@2.1-service",
-	owner: "xiaomi",
-	src: "proprietary/vendor/etc/vintf/manifest/gnss@2.1-service.xml",
-	filename_from_src: true,
-	sub_dir: "vintf/manifest",
-	soc_specific: true,
+        name: "gnss-mtk",
+        owner: "xiaomi",
+        src: "proprietary/vendor/etc/vintf/manifest/gnss-mtk.xml",
+        filename_from_src: true,
+        sub_dir: "vintf/manifest",
+        soc_specific: true,
 }
 
 prebuilt_etc_xml {
