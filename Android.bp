@@ -78,6 +78,18 @@ dex_import {
 }
 
 dex_import {
+	name: "mediatek-ims-extension-plugin",
+	owner: "xiaomi",
+	jars: ["proprietary/framework/mediatek-ims-extension-plugin.jar"],
+}
+
+dex_import {
+	name: "mediatek-ims-legacy",
+	owner: "xiaomi",
+	jars: ["proprietary/framework/mediatek-ims-legacy.jar"],
+}
+
+dex_import {
 	name: "mediatek-telecom-common",
 	owner: "xiaomi",
 	jars: ["proprietary/framework/mediatek-telecom-common.jar"],
@@ -93,18 +105,6 @@ dex_import {
 	name: "mediatek-telephony-common",
 	owner: "xiaomi",
 	jars: ["proprietary/framework/mediatek-telephony-common.jar"],
-}
-
-dex_import {
-	name: "mediatek-ims-extension-plugin",
-	owner: "xiaomi",
-	jars: ["proprietary/framework/mediatek-ims-extension-plugin.jar"],
-}
-
-dex_import {
-	name: "mediatek-ims-legacy",
-	owner: "xiaomi",
-	jars: ["proprietary/framework/mediatek-ims-legacy.jar"],
 }
 
 dex_import {
@@ -198,15 +198,6 @@ prebuilt_etc_xml {
 	name: "memtrack-mediatek",
 	owner: "xiaomi",
 	src: "proprietary/vendor/etc/vintf/manifest/memtrack-mediatek.xml",
-	filename_from_src: true,
-	sub_dir: "vintf/manifest",
-	soc_specific: true,
-}
-
-prebuilt_etc_xml {
-	name: "vendor.xiaomi.hardware.micharge@1.0",
-	owner: "xiaomi",
-	src: "proprietary/vendor/etc/vintf/manifest/vendor.xiaomi.hardware.micharge@1.0.xml",
 	filename_from_src: true,
 	sub_dir: "vintf/manifest",
 	soc_specific: true,
